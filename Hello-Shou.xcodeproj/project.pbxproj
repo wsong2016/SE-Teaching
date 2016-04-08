@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		E48AEF3D1CB68E670033723F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48AEF3C1CB68E670033723F /* AppDelegate.swift */; };
 		E48AEF3F1CB68E670033723F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48AEF3E1CB68E670033723F /* ViewController.swift */; };
-		E48AEF421CB68E670033723F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48AEF401CB68E670033723F /* Main.storyboard */; };
 		E48AEF441CB68E670033723F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48AEF431CB68E670033723F /* Assets.xcassets */; };
 		E48AEF471CB68E670033723F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48AEF451CB68E670033723F /* LaunchScreen.storyboard */; };
 		E48AEF521CB68E680033723F /* Hello_ShouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48AEF511CB68E680033723F /* Hello_ShouTests.swift */; };
 		E48AEF5D1CB68E680033723F /* Hello_ShouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48AEF5C1CB68E680033723F /* Hello_ShouUITests.swift */; };
+		E48AEF6E1CB744DD0033723F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48AEF6C1CB744DD0033723F /* Main.storyboard */; };
+		E48AEF741CB74A140033723F /* shou-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E48AEF731CB74A140033723F /* shou-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 		E48AEF391CB68E670033723F /* Hello-Shou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello-Shou.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48AEF3C1CB68E670033723F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E48AEF3E1CB68E670033723F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E48AEF411CB68E670033723F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E48AEF431CB68E670033723F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E48AEF461CB68E670033723F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E48AEF481CB68E670033723F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		E48AEF581CB68E680033723F /* Hello-ShouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello-ShouUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48AEF5C1CB68E680033723F /* Hello_ShouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_ShouUITests.swift; sourceTree = "<group>"; };
 		E48AEF5E1CB68E680033723F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48AEF6D1CB744DD0033723F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E48AEF731CB74A140033723F /* shou-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shou-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,10 @@
 		E48AEF3B1CB68E670033723F /* Hello-Shou */ = {
 			isa = PBXGroup;
 			children = (
+				E48AEF731CB74A140033723F /* shou-logo.png */,
 				E48AEF3C1CB68E670033723F /* AppDelegate.swift */,
 				E48AEF3E1CB68E670033723F /* ViewController.swift */,
-				E48AEF401CB68E670033723F /* Main.storyboard */,
+				E48AEF6C1CB744DD0033723F /* Main.storyboard */,
 				E48AEF431CB68E670033723F /* Assets.xcassets */,
 				E48AEF451CB68E670033723F /* LaunchScreen.storyboard */,
 				E48AEF481CB68E670033723F /* Info.plist */,
@@ -229,9 +232,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48AEF6E1CB744DD0033723F /* Main.storyboard in Resources */,
+				E48AEF741CB74A140033723F /* shou-logo.png in Resources */,
 				E48AEF471CB68E670033723F /* LaunchScreen.storyboard in Resources */,
 				E48AEF441CB68E670033723F /* Assets.xcassets in Resources */,
-				E48AEF421CB68E670033723F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +297,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E48AEF401CB68E670033723F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E48AEF411CB68E670033723F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E48AEF451CB68E670033723F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E48AEF461CB68E670033723F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E48AEF6C1CB744DD0033723F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E48AEF6D1CB744DD0033723F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -484,6 +488,7 @@
 				E48AEF631CB68E680033723F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E48AEF641CB68E680033723F /* Build configuration list for PBXNativeTarget "Hello-ShouTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				E48AEF661CB68E680033723F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E48AEF671CB68E680033723F /* Build configuration list for PBXNativeTarget "Hello-ShouUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				E48AEF691CB68E680033723F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
