@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     var showIfTheShouLogoAppear:Bool = true
     
     @IBAction func clickMe(sender: UIButton) {
+        
         if showIfTheShouLogoAppear{
             shouLogo.hidden = true
             showIfTheShouLogoAppear = false
